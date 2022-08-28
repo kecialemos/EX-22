@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste imagem de fundo</title>
+
+
+
+    <style>
+
+        body{
+            background-image: url(./Imagen/wallpaper001.jpg);
+        }
+
+
+        div.quadrado {   /*Para configurar as div quadrado*/
+            display: inline-block;   /* Para colocar uma do lado da outra*/
+            border: 2px solid black;
+            border-radius: 10px;  /*Para deixar as bordas redondinhas*/
+            background-color: rgba(169, 169, 169, 0.507);
+            width: 300px;   /*Largura*/
+            height: 300px;  /*Altura*/
+
+        }
+
+        div#q1{
+            background-color: rgba(137, 226, 226, 0.534); /*cor normal*/
+        }
+
+        div#q2{
+            background-image: linear-gradient(to bottom, yellow, orange); /*Para um gradiente*/
+        }
+
+        div#q3{
+            background-image: url(./Imagen/pattern003.png); /*Para colocar uma imagem como fundo*/
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div class="quadrado" id="q1">
+
+    </div>
+
+    <div class="quadrado" id="q2">
+
+    </div>
+
+    <div class="quadrado" id="q3">
+
+    </div>
+</body>
+</html>
